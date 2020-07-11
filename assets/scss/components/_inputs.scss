@@ -1,0 +1,13 @@
+input[type="text"], input[type="email"], input[type="tel"] {
+  padding: 15px;
+  border: 1px solid $black;
+  width: 100%;
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  font-size: 16px;
+
+  &::placeholder {
+    color: $muted;
+  }
+}
